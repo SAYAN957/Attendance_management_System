@@ -9,6 +9,7 @@ A **full-stack web application** for managing student attendance based on depart
 ---
 
 ✨ Features
+
 🔹 Department, Subject, and Student management
 
 🔹 Mark and view attendance records
@@ -17,11 +18,11 @@ A **full-stack web application** for managing student attendance based on depart
 
 🔹 Pie charts showing:
 
-Overall attendance status
+   Overall attendance status
 
-Attendance present count by department
+   Attendance present count by department
 
-Attendance present count by subject
+   Attendance present count by subject
 
 🔹 Responsive and modern UI built with React + Vite
 
