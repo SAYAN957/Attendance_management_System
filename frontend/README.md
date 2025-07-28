@@ -66,11 +66,8 @@ cd Attendance_management_System
 
 3. Configure environment variables:
 
-   * Copy `.env.example` to `.env` or create one manually:
+   * Create `.env` file manually:
 
-     ```bash
-     cp .env.example .env
-     ```
    * Add your MongoDB connection string and desired port:
 
      ```
@@ -126,8 +123,11 @@ Once both frontend and backend are running:
   * Manage **Departments**, **Subjects**, and **Students**
   * **Mark** and **view** attendance records
   * View interactive charts on the dashboard, including:
+    
     ✅ Overall attendance summary
+    
     🏢 Attendance present count by Department
+    
     📚 Attendance present count by Subject
 
 ---
