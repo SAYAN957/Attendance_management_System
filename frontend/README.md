@@ -8,17 +8,24 @@ A **full-stack web application** for managing student attendance based on depart
 
 ---
 
-## ✨ Features
-*🔹 Student attendnece management based on department,subjects and dates
-*🔹 Mark and view attendance records
-*🔹 Pie charts showing:
-    > Overall attendance status
-    > Attendance present count by department
-    > Attendance present count by subject
-*🔹 Responsive and modern UI built with **React + Vite**
-*🔹 RESTful API using **Express.js** and **MongoDB**
-*🔹 Scalable folder structure and clean codebase
+✨ Features
+🔹 Department, Subject, and Student management
 
+🔹 Mark and view attendance records
+
+🔹 Interactive dashboard with real-time data visualization
+
+🔹 Pie charts showing:
+
+Overall attendance status
+
+Attendance present count by department
+
+Attendance present count by subject
+
+🔹 Responsive and modern UI built with React + Vite
+
+🔹 RESTful API using Express.js and MongoDB
 ---
 
 ## 🛠️ Getting Started
