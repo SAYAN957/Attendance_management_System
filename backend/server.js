@@ -16,7 +16,20 @@ app.get('/', (req, res) => {
 });
 
 // Connect to MongoDB
-mongoose.connect(process.env.MONGO_URI)
+// mongoose.connect(process.env.MONGO_URI)
+//   .then(() => {
+//     console.log('Connected to MongoDB');
+//     app.listen(PORT, () => {
+//       console.log(`Server listening on port ${PORT}`);
+//     });
+//   })
+//   .catch((err) => {
+//     console.error('Error connecting to MongoDB:', err.message);
+//     process.exit(1);
+//   });
+const mongoURI = process.env.MONGO_URI || process.env.MONGODB_URI;
+
+mongoose.connect(mongoURI)
   .then(() => {
     console.log('Connected to MongoDB');
     app.listen(PORT, () => {
